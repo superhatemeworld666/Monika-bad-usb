@@ -23,5 +23,7 @@ DELAY 250
 ENTER
 DELAY 250
 STRING python monika.py
+DELAY 250
+ENTER
 
 
