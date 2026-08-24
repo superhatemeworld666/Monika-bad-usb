@@ -14,3 +14,4 @@ Creators dosent take responsobility if the device breaks
 MONIKA FOLDER:janwasowski999-tech
 BADUSB FILE: superhatemeworld666
 🧁 goodbye 🧁
+UPDATE: NOW PAYLOAD DOSENT INSTALL PYTHON FOR YOU BUT IT WILL STILL INSTALL THE MONIKA FOLDER BUT NOT PYTHON !!!!
