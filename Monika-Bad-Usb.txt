@@ -17,7 +17,9 @@ GUI r
 STRING powershell
 DELAY 2500
 STRING cd "$env:USERPROFILE\Downloads\MONIKA"
-DELAY 500
+DELAY 250
+ENTER
+DELAY 250
 STRING python monika.py
 
 
